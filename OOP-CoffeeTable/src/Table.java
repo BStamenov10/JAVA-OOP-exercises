@@ -11,19 +11,19 @@ public class Table {
     }
 
 
-    public void setWidth(float width) {
+    public final void setWidth(float width) {
         this.width = width;
     }
 
-    public float getWidth() {
+    public final float getWidth() {
         return width;
     }
 
-    public void setHeight(float height) {
+    public final void setHeight(float height) {
         this.height = height;
     }
 
-    public float getHeight() {
+    public final float getHeight() {
         return height;
     }
 
